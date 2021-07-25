@@ -1,0 +1,199 @@
+$color : black;
+
+body,html
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+    height: 100%;
+    box-sizing: border-box;
+    // overflow-y: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    #img-1{
+        width:100%;
+        height: 650px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    }
+    h1{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        line-height: 0;
+        text-align: center;
+        color: rgb(51, 49, 49);
+        text-transform: capitalize;
+    }
+    .content{
+        // z-index: 1;
+        position: absolute;
+        top: 0;
+        // background-color: rgba(246, 88, 66,0.7);
+        border-radius: 20px;
+        // box-shadow: 5px 5px 3px rgb(209, 208, 208);
+    }
+    h2{
+        font-size: 1.8rem;
+        color: rgb(54, 51, 51);
+        font-family: 'Courier New', Courier, monospace;
+        width: 80%;
+        font-weight: bolder;
+        // line-height: 0;
+    }
+    input{
+        padding: 5px 12px;
+        border: none;
+        font-size: 1.8rem;
+        border-radius: 5px;
+        font-weight: bolder;
+        background: transparent;
+        outline: none;
+        border-bottom: 2px solid #4dcdd1;
+        color: rgb(54, 51, 51);
+    }
+    ::placeholder{
+        color: $color;
+    }
+    button{
+        // margin-top: 30px;
+        background-color: #4dcdd1;
+        color: black;
+        font-weight: bolder;
+        font-size: 1.8rem;
+        outline: none;
+        border-radius: 11px;
+        border: 1.5px solid black;
+        // box-shadow: 10px 10px 5px grey
+    }
+}
+.add-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding: 10px;
+    background-color: #1b242f;
+    color: white;
+    padding: 0;
+    a{
+        color: #4dcdd1;
+        text-decoration: none;
+    }
+}
+
+// media queries
+//  /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .content{
+        width: 100%;
+        margin-top: 6.5%;
+        // margin-left: 132px;
+        .con-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+    }
+    h1{
+        font-size: 2.8rem;
+    }
+    button{
+        margin-top: 5px;
+        padding: 0.5rem 3rem;
+    }
+ }
+
+//  /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .content{
+        width: 100%;
+        margin-top: 6.5%;
+        .con-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    button{
+        margin-top: 5px;
+        padding: 0.8rem 3.2rem;
+    }
+ }
+ 
+//  /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .content{
+        width: 100%;
+        height: 10%;
+        margin-top: 6.5%;
+        .con-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-top: 20px;
+        }
+    }h1{
+        font-size: 4.5rem;
+    }
+    button{
+        padding: 1rem 4rem;
+    }
+ }
+ 
+//  /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .content{
+        width: 80%;
+        height: 10%;
+        margin-top: 6.5%;
+        margin-left: 132px;
+        .con-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-top: 20px;
+        }
+    }
+    h1{
+        font-size: 5.5rem;
+    }
+    button{
+        padding: 1rem 4rem;
+    }
+ }
+ 
+//  /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .content{
+        width: 80%;
+        height: 10%;
+        margin-top: 6.5%;
+        margin-left: 132px;
+        .con-content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-top: 20px;
+        }
+    }
+    h1{
+        font-size: 5.5rem;
+    }
+    button{
+        padding: 1rem 4rem;
+    }
+ } 
