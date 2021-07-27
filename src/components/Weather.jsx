@@ -54,7 +54,7 @@ const Weather = () => {
             <form onSubmit={handleSubmit} className="con-content" >
                 {/* <h2>Enter your City Name to get the Weather Forecast</h2><br /> */}
                 <input type="text" name="city" placeholder="Enter Your City" value={ city } onChange={handleChange} />
-                <input type="text" name="country" placeholder="Enter Your Country" value={ country } onChange={handleChange} />
+                {/* <input type="text" name="country" placeholder="Enter Your Country" value={ country } onChange={handleChange} /> */}
                 <button className="getWeather">Submit</button>
             </form>
             </div>

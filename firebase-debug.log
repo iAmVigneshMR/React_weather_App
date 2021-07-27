@@ -1,0 +1,41 @@
+[debug] [2021-07-27T16:03:40.248Z] ----------------------------------------------------------------------
+[debug] [2021-07-27T16:03:40.260Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-07-27T16:03:40.262Z] CLI Version:   9.16.0
+[debug] [2021-07-27T16:03:40.262Z] Platform:      linux
+[debug] [2021-07-27T16:03:40.262Z] Node Version:  v14.17.2
+[debug] [2021-07-27T16:03:40.298Z] Time:          Tue Jul 27 2021 21:33:40 GMT+0530 (India Standard Time)
+[debug] [2021-07-27T16:03:40.299Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-27T16:03:40.315Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-07-27T16:03:40.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-27T16:03:40.499Z] > authorizing via signed-in user (vigneshdreamer1997@gmail.com)
+[debug] [2021-07-27T16:03:40.499Z] [iam] checking project weather-31630 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-27T16:03:40.500Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-27T16:03:40.500Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-27T16:03:40.845Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 27 Jul 2021 16:03:40 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-27T16:03:40.965Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/weather-31630:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-27T16:03:41.741Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-07-27T16:03:41.741Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-07-27T16:03:42.550Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 27 Jul 2021 16:03:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1184","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-27T16:03:42.555Z] > refreshing access token with scopes: []
+[debug] [2021-07-27T16:03:42.556Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-27T16:05:51.800Z] ----------------------------------------------------------------------
+[debug] [2021-07-27T16:05:51.802Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-07-27T16:05:51.802Z] CLI Version:   9.16.0
+[debug] [2021-07-27T16:05:51.802Z] Platform:      linux
+[debug] [2021-07-27T16:05:51.802Z] Node Version:  v14.17.2
+[debug] [2021-07-27T16:05:51.803Z] Time:          Tue Jul 27 2021 21:35:51 GMT+0530 (India Standard Time)
+[debug] [2021-07-27T16:05:51.803Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-27T16:05:51.857Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-27T16:05:51.857Z] > authorizing via signed-in user (vigneshdreamer1997@gmail.com)
+[debug] [2021-07-27T16:05:51.857Z] [iam] checking project weather-31630 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-27T16:05:51.859Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/weather-31630:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-27T16:05:53.427Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 27 Jul 2021 16:05:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1186","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-27T16:05:53.436Z] > refreshing access token with scopes: []
+[debug] [2021-07-27T16:05:53.437Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
